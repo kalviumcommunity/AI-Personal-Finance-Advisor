@@ -28,5 +28,14 @@ function dotProduct(a, b) {
   }
   return dot;
 }
+// L2 (Euclidean) distance
+function l2Distance(a, b) {
+  let sum = 0.0;
+  for (let i = 0; i < a.length; i++) {
+    sum += Math.pow(a[i] - b[i], 2);
+  }
+  return Math.sqrt(sum);
+}
 
-module.exports = { cosineSimilarity, dotProduct };
+module.exports = { cosineSimilarity, dotProduct, l2Distance };
+
