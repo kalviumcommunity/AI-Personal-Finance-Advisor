@@ -20,4 +20,13 @@ function cosineSimilarity(vecA, vecB) {
     return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
-module.exports = { cosineSimilarity };
+// Dot product
+function dotProduct(a, b) {
+  let dot = 0.0;
+  for (let i = 0; i < a.length; i++) {
+    dot += a[i] * b[i];
+  }
+  return dot;
+}
+
+module.exports = { cosineSimilarity, dotProduct };
