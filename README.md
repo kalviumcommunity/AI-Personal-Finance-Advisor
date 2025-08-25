@@ -1,8 +1,3 @@
-# AI-Personal-Finance-Advisor
-Absolutely! Here's a **detailed, professional README** for your **AI Personal Finance Advisor** project. I’ve included explanations for each concept, workflow, tech stack, and usage instructions.
-
----
-
 # AI Personal Finance Advisor
 
 **Version:** 1.0
